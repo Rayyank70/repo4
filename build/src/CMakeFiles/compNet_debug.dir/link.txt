@@ -1,0 +1,2 @@
+/usr/bin/ar qc libcompNet_debug.a CMakeFiles/compNet_debug.dir/network_interface.cc.o CMakeFiles/compNet_debug.dir/webget.cc.o
+/usr/bin/ranlib libcompNet_debug.a

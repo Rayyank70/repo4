@@ -1,0 +1,6 @@
+3:net_interface_test_typical
+4:net_interface_test_reply
+5:net_interface_test_learn
+6:net_interface_test_pending
+7:net_interface_test_expiry
+8:net_interface_test_independence

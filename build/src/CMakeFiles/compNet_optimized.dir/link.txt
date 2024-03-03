@@ -1,0 +1,2 @@
+/usr/bin/ar qc libcompNet_optimized.a CMakeFiles/compNet_optimized.dir/network_interface.cc.o CMakeFiles/compNet_optimized.dir/webget.cc.o
+/usr/bin/ranlib libcompNet_optimized.a

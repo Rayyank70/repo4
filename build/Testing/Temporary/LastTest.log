@@ -1,0 +1,235 @@
+Start testing: Mar 02 23:10 EST
+----------------------------------------------------------
+1/8 Testing: compile with bug-checkers
+1/8 Test: compile with bug-checkers
+Command: "/home/rayyan/.local/lib/python3.10/site-packages/cmake/data/bin/cmake" "--build" "/home/rayyan/Documents/358/a1/build" "-t" "functionality_testing" "webget"
+Directory: /home/rayyan/Documents/358/a1/build
+"compile with bug-checkers" start time: Mar 02 23:10 EST
+Output:
+----------------------------------------------------------
+make[4]: warning: -j12 forced in submake: resetting jobserver mode.
+[  2%] [32mBuilding CXX object tests/CMakeFiles/compNet_testing_sanitized.dir/common.cc.o[0m
+[  6%] Built target compNet_testing_debug
+[  8%] [32mBuilding CXX object src/CMakeFiles/compNet_sanitized.dir/network_interface.cc.o[0m
+[ 12%] [32mBuilding CXX object src/CMakeFiles/compNet_sanitized.dir/webget.cc.o[0m
+[ 12%] [32mBuilding CXX object util/CMakeFiles/util_sanitized.dir/address.cc.o[0m
+[ 18%] Built target compNet_debug
+[ 20%] [32mBuilding CXX object util/CMakeFiles/util_sanitized.dir/arp_message.cc.o[0m
+[ 22%] [32mBuilding CXX object util/CMakeFiles/util_sanitized.dir/ethernet_header.cc.o[0m
+[ 25%] [32mBuilding CXX object util/CMakeFiles/util_sanitized.dir/file_descriptor.cc.o[0m
+[ 41%] [32mBuilding CXX object util/CMakeFiles/util_sanitized.dir/ipv4_header.cc.o[0m
+[ 41%] Built target util_debug
+[ 43%] [32mBuilding CXX object util/CMakeFiles/util_sanitized.dir/socket.cc.o[0m
+[ 45%] [32mBuilding CXX object tests/CMakeFiles/net_interface_test_reply.dir/net_interface_test_reply.cc.o[0m
+[ 47%] [32mBuilding CXX object tests/CMakeFiles/net_interface_test_typical.dir/net_interface_test_typical.cc.o[0m
+[ 50%] [32mBuilding CXX object tests/CMakeFiles/net_interface_test_independence.dir/net_interface_test_independence.cc.o[0m
+[ 52%] [32mBuilding CXX object tests/CMakeFiles/net_interface_test_learn.dir/net_interface_test_learn.cc.o[0m
+[ 54%] [32mBuilding CXX object tests/CMakeFiles/net_interface_test_pending.dir/net_interface_test_pending.cc.o[0m
+[ 56%] [32m[1mLinking CXX static library libcompNet_testing_sanitized.a[0m
+[ 58%] [32m[1mLinking CXX static library libcompNet_sanitized.a[0m
+[ 58%] Built target compNet_sanitized
+[ 58%] Built target compNet_testing_sanitized
+[ 60%] [32mBuilding CXX object tests/CMakeFiles/net_interface_test_expiry.dir/net_interface_test_expiry.cc.o[0m
+[ 62%] [32m[1mLinking CXX static library libutil_sanitized.a[0m
+[ 62%] Built target util_sanitized
+[ 64%] [32mBuilding CXX object tests/CMakeFiles/net_interface_test_typical_sanitized.dir/net_interface_test_typical.cc.o[0m
+[ 66%] [32mBuilding CXX object tests/CMakeFiles/net_interface_test_reply_sanitized.dir/net_interface_test_reply.cc.o[0m
+[ 70%] [32mBuilding CXX object tests/CMakeFiles/net_interface_test_independence_sanitized.dir/net_interface_test_independence.cc.o[0m
+[ 70%] [32mBuilding CXX object tests/CMakeFiles/net_interface_test_expiry_sanitized.dir/net_interface_test_expiry.cc.o[0m
+[ 72%] [32mBuilding CXX object tests/CMakeFiles/net_interface_test_pending_sanitized.dir/net_interface_test_pending.cc.o[0m
+[ 75%] [32mBuilding CXX object tests/CMakeFiles/net_interface_test_learn_sanitized.dir/net_interface_test_learn.cc.o[0m
+[ 77%] [32m[1mLinking CXX executable net_interface_test_reply[0m
+[ 79%] [32m[1mLinking CXX executable net_interface_test_typical[0m
+[ 81%] [32m[1mLinking CXX executable net_interface_test_independence[0m
+[ 81%] Built target net_interface_test_reply
+[ 81%] Built target net_interface_test_typical
+[ 81%] Built target net_interface_test_independence
+[ 83%] [32m[1mLinking CXX executable net_interface_test_pending[0m
+[ 85%] [32m[1mLinking CXX executable net_interface_test_learn[0m
+[ 87%] [32m[1mLinking CXX executable net_interface_test_expiry[0m
+[ 87%] Built target net_interface_test_learn
+[ 87%] Built target net_interface_test_pending
+[ 87%] Built target net_interface_test_expiry
+[ 89%] [32m[1mLinking CXX executable net_interface_test_pending_sanitized[0m
+[ 91%] [32m[1mLinking CXX executable net_interface_test_learn_sanitized[0m
+[ 91%] Built target net_interface_test_pending_sanitized
+[ 91%] Built target net_interface_test_learn_sanitized
+[ 93%] [32m[1mLinking CXX executable net_interface_test_expiry_sanitized[0m
+[ 95%] [32m[1mLinking CXX executable net_interface_test_reply_sanitized[0m
+[ 97%] [32m[1mLinking CXX executable net_interface_test_typical_sanitized[0m
+[ 97%] Built target net_interface_test_reply_sanitized
+[ 97%] Built target net_interface_test_expiry_sanitized
+[100%] [32m[1mLinking CXX executable net_interface_test_independence_sanitized[0m
+[100%] Built target net_interface_test_typical_sanitized
+[100%] Built target net_interface_test_independence_sanitized
+[100%] Built target functionality_testing
+[ 25%] Built target compNet_debug
+[ 83%] Built target util_debug
+[100%] Built target webget
+<end of output>
+Test time =   7.50 sec
+----------------------------------------------------------
+Test Passed.
+"compile with bug-checkers" end time: Mar 02 23:10 EST
+"compile with bug-checkers" time elapsed: 00:00:07
+----------------------------------------------------------
+
+3/8 Testing: net_interface_test_typical
+3/8 Test: net_interface_test_typical
+Command: "/home/rayyan/Documents/358/a1/build/tests/net_interface_test_typical_sanitized"
+Directory: /home/rayyan/Documents/358/a1/build
+"net_interface_test_typical" start time: Mar 02 23:10 EST
+Output:
+----------------------------------------------------------
+DEBUG: Network interface has Ethernet address ae:c3:1b:c4:56:0e and IP address 4.3.2.1
+
+The test [1;39m"[m[1;39mtypical ARP workflow[m[1;39m"[m failed after these steps:
+
+  0.	[1;39mInitialized NetworkInterface with eth=ae:c3:1b:c4:56:0e, ip=4.3.2.1[m
+  1.	[1;34mAction: request to send datagram (to next hop 192.168.0.1): IPv4, len=15, protocol=6, src=5.6.7.8, dst=13.12.11.10[m
+[1;31m  ***** Unsuccessful Expectation: frame transmitted (dst=ff:ff:ff:ff:ff:ff, src=ae:c3:1b:c4:56:0e, type=ARP, payload: ARP: opcode=REQUEST, sender=ae:c3:1b:c4:56:0e/4.3.2.1, target=00:00:00:00:00:00/192.168.0.1) *****
+
+[m[1;31mExpectationViolation[m: [1;39mNetworkInterface was expected to send an Ethernet frame, but did not[m
+
+The test "typical ARP workflow" failed.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Failed.
+"net_interface_test_typical" end time: Mar 02 23:10 EST
+"net_interface_test_typical" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/8 Testing: net_interface_test_reply
+4/8 Test: net_interface_test_reply
+Command: "/home/rayyan/Documents/358/a1/build/tests/net_interface_test_reply_sanitized"
+Directory: /home/rayyan/Documents/358/a1/build
+"net_interface_test_reply" start time: Mar 02 23:10 EST
+Output:
+----------------------------------------------------------
+DEBUG: Network interface has Ethernet address 32:b2:92:06:6a:bd and IP address 5.5.5.5
+
+The test [1;39m"[m[1;39mreply to ARP request[m[1;39m"[m failed after these steps:
+
+  0.	[1;39mInitialized NetworkInterface with eth=32:b2:92:06:6a:bd, ip=5.5.5.5[m
+  1.	[1;34mAction: frame arrives (dst=ff:ff:ff:ff:ff:ff, src=56:ce:88:4a:42:4f, type=ARP, payload: ARP: opcode=REQUEST, sender=56:ce:88:4a:42:4f/10.0.1.1, target=00:00:00:00:00:00/7.7.7.7)[m
+  2.	[1;32mExpectation: no frame transmitted[m
+  3.	[1;34mAction: frame arrives (dst=ff:ff:ff:ff:ff:ff, src=56:ce:88:4a:42:4f, type=ARP, payload: ARP: opcode=REQUEST, sender=56:ce:88:4a:42:4f/10.0.1.1, target=00:00:00:00:00:00/5.5.5.5)[m
+[1;31m  ***** Unsuccessful Expectation: frame transmitted (dst=56:ce:88:4a:42:4f, src=32:b2:92:06:6a:bd, type=ARP, payload: ARP: opcode=REPLY, sender=32:b2:92:06:6a:bd/5.5.5.5, target=56:ce:88:4a:42:4f/10.0.1.1) *****
+
+[m[1;31mExpectationViolation[m: [1;39mNetworkInterface was expected to send an Ethernet frame, but did not[m
+
+The test "reply to ARP request" failed.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Failed.
+"net_interface_test_reply" end time: Mar 02 23:10 EST
+"net_interface_test_reply" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/8 Testing: net_interface_test_learn
+5/8 Test: net_interface_test_learn
+Command: "/home/rayyan/Documents/358/a1/build/tests/net_interface_test_learn_sanitized"
+Directory: /home/rayyan/Documents/358/a1/build
+"net_interface_test_learn" start time: Mar 02 23:10 EST
+Output:
+----------------------------------------------------------
+DEBUG: Network interface has Ethernet address 5a:84:86:0a:70:89 and IP address 5.5.5.5
+
+The test [1;39m"[m[1;39mlearn from ARP request[m[1;39m"[m failed after these steps:
+
+  0.	[1;39mInitialized NetworkInterface with eth=5a:84:86:0a:70:89, ip=5.5.5.5[m
+  1.	[1;34mAction: frame arrives (dst=ff:ff:ff:ff:ff:ff, src=96:6d:59:1c:c8:91, type=ARP, payload: ARP: opcode=REQUEST, sender=96:6d:59:1c:c8:91/10.0.1.1, target=00:00:00:00:00:00/5.5.5.5)[m
+[1;31m  ***** Unsuccessful Expectation: frame transmitted (dst=96:6d:59:1c:c8:91, src=5a:84:86:0a:70:89, type=ARP, payload: ARP: opcode=REPLY, sender=5a:84:86:0a:70:89/5.5.5.5, target=96:6d:59:1c:c8:91/10.0.1.1) *****
+
+[m[1;31mExpectationViolation[m: [1;39mNetworkInterface was expected to send an Ethernet frame, but did not[m
+
+The test "learn from ARP request" failed.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Failed.
+"net_interface_test_learn" end time: Mar 02 23:10 EST
+"net_interface_test_learn" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/8 Testing: net_interface_test_pending
+6/8 Test: net_interface_test_pending
+Command: "/home/rayyan/Documents/358/a1/build/tests/net_interface_test_pending_sanitized"
+Directory: /home/rayyan/Documents/358/a1/build
+"net_interface_test_pending" start time: Mar 02 23:10 EST
+Output:
+----------------------------------------------------------
+DEBUG: Network interface has Ethernet address 16:dd:f4:92:58:bc and IP address 1.2.3.4
+
+The test [1;39m"[m[1;39mpending mappings last five seconds[m[1;39m"[m failed after these steps:
+
+  0.	[1;39mInitialized NetworkInterface with eth=16:dd:f4:92:58:bc, ip=1.2.3.4[m
+  1.	[1;34mAction: request to send datagram (to next hop 10.0.0.1): IPv4, len=15, protocol=6, src=5.6.7.8, dst=13.12.11.10[m
+[1;31m  ***** Unsuccessful Expectation: frame transmitted (dst=ff:ff:ff:ff:ff:ff, src=16:dd:f4:92:58:bc, type=ARP, payload: ARP: opcode=REQUEST, sender=16:dd:f4:92:58:bc/1.2.3.4, target=00:00:00:00:00:00/10.0.0.1) *****
+
+[m[1;31mExpectationViolation[m: [1;39mNetworkInterface was expected to send an Ethernet frame, but did not[m
+
+The test "pending mappings last five seconds" failed.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Failed.
+"net_interface_test_pending" end time: Mar 02 23:10 EST
+"net_interface_test_pending" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/8 Testing: net_interface_test_expiry
+7/8 Test: net_interface_test_expiry
+Command: "/home/rayyan/Documents/358/a1/build/tests/net_interface_test_expiry_sanitized"
+Directory: /home/rayyan/Documents/358/a1/build
+"net_interface_test_expiry" start time: Mar 02 23:10 EST
+Output:
+----------------------------------------------------------
+DEBUG: Network interface has Ethernet address 3a:3c:42:cf:8f:d7 and IP address 4.3.2.1
+
+The test [1;39m"[m[1;39mactive mappings last 30 seconds[m[1;39m"[m failed after these steps:
+
+  0.	[1;39mInitialized NetworkInterface with eth=3a:3c:42:cf:8f:d7, ip=4.3.2.1[m
+  1.	[1;34mAction: request to send datagram (to next hop 192.168.0.1): IPv4, len=15, protocol=6, src=5.6.7.8, dst=13.12.11.10[m
+[1;31m  ***** Unsuccessful Expectation: frame transmitted (dst=ff:ff:ff:ff:ff:ff, src=3a:3c:42:cf:8f:d7, type=ARP, payload: ARP: opcode=REQUEST, sender=3a:3c:42:cf:8f:d7/4.3.2.1, target=00:00:00:00:00:00/192.168.0.1) *****
+
+[m[1;31mExpectationViolation[m: [1;39mNetworkInterface was expected to send an Ethernet frame, but did not[m
+
+The test "active mappings last 30 seconds" failed.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Failed.
+"net_interface_test_expiry" end time: Mar 02 23:10 EST
+"net_interface_test_expiry" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/8 Testing: net_interface_test_independence
+8/8 Test: net_interface_test_independence
+Command: "/home/rayyan/Documents/358/a1/build/tests/net_interface_test_independence_sanitized"
+Directory: /home/rayyan/Documents/358/a1/build
+"net_interface_test_independence" start time: Mar 02 23:10 EST
+Output:
+----------------------------------------------------------
+DEBUG: Network interface has Ethernet address 8a:bf:06:44:47:76 and IP address 10.0.0.1
+
+The test [1;39m"[m[1;39mdifferent ARP mappings are independent[m[1;39m"[m failed after these steps:
+
+  0.	[1;39mInitialized NetworkInterface with eth=8a:bf:06:44:47:76, ip=10.0.0.1[m
+  1.	[1;34mAction: frame arrives (dst=ff:ff:ff:ff:ff:ff, src=e2:06:50:0e:37:3a, type=ARP, payload: ARP: opcode=REQUEST, sender=e2:06:50:0e:37:3a/10.0.0.5, target=00:00:00:00:00:00/10.0.0.1)[m
+[1;31m  ***** Unsuccessful Expectation: frame transmitted (dst=e2:06:50:0e:37:3a, src=8a:bf:06:44:47:76, type=ARP, payload: ARP: opcode=REPLY, sender=8a:bf:06:44:47:76/10.0.0.1, target=e2:06:50:0e:37:3a/10.0.0.5) *****
+
+[m[1;31mExpectationViolation[m: [1;39mNetworkInterface was expected to send an Ethernet frame, but did not[m
+
+The test "different ARP mappings are independent" failed.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Failed.
+"net_interface_test_independence" end time: Mar 02 23:10 EST
+"net_interface_test_independence" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Mar 02 23:10 EST

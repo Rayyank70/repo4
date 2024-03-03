@@ -1,0 +1,2 @@
+/usr/bin/ar qc libcompNet_testing_sanitized.a CMakeFiles/compNet_testing_sanitized.dir/common.cc.o
+/usr/bin/ranlib libcompNet_testing_sanitized.a

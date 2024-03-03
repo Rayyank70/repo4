@@ -1,0 +1,14 @@
+compile with bug-checkers 1 7.4974
+net_interface_test_typical 0 0
+net_interface_test_reply 0 0
+net_interface_test_learn 0 0
+net_interface_test_pending 0 0
+net_interface_test_expiry 0 0
+net_interface_test_independence 0 0
+---
+net_interface_test_typical
+net_interface_test_reply
+net_interface_test_learn
+net_interface_test_pending
+net_interface_test_expiry
+net_interface_test_independence

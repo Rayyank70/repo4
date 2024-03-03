@@ -1,0 +1,2 @@
+/usr/bin/ar qc libcompNet_sanitized.a CMakeFiles/compNet_sanitized.dir/network_interface.cc.o CMakeFiles/compNet_sanitized.dir/webget.cc.o
+/usr/bin/ranlib libcompNet_sanitized.a
